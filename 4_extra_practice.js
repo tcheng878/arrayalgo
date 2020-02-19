@@ -3,4 +3,11 @@
 
 // YOUR CODE HERE
 
-
+var arr = [8,6,7,5,3,0,9];
+var newarr = []
+var placeholder = 0;
+for(var i = 0; i < arr.length; i++){
+    placeholder = arr.length - i - 1;
+    newarr[i] = arr[placeholder];
+}
+console.log(newarr);
